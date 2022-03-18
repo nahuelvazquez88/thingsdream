@@ -1,0 +1,44 @@
+.tarjeta {
+  margin: 5px;
+  width: 250px;
+  height: 380px;
+  background-color: rgb(15, 95, 95);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.tarjeta h3 {
+  background-color: rgb(15, 95, 95);
+  color: rgb(180, 184, 181)
+}
+
+.tarjeta p {
+  margin: 0;
+}
+
+.cardImg {
+  width: 80%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    object-fit: fill;
+  }
+}
+
+
+
+.tarjeta:hover {
+  width: 280px;
+  height: 395px;
+  background-color: rgb(7, 73, 73);
+  color:rgb(180, 184, 181);
+}

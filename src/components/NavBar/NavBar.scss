@@ -1,0 +1,50 @@
+@import '../../styles/variables.scss';
+
+.navbar {
+  background-color: $background-color-principal;
+}
+
+.dropdown-toggle, .nav-link {
+  background-color: $background-color-principal;
+}
+
+.navbar-brand{
+  padding-top: 0 !important ;
+  padding-bottom: 0 !important;
+}
+
+.navbar-nav {
+  width: 40% !important;
+}
+
+.menuLink, menuLink:link, menuLink:visited, menuLink:hover, menuLink:active {
+  color:rgb(148, 143, 143) !important;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.logo {
+  width: 150px;
+  overflow: hidden;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.menu1 {
+  font-size: 20px;
+  background-color: rgb(66, 199, 188);
+  margin: 20px;
+}
+
+.menu {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  background-color: rgb(206, 206, 206);
+  margin: 20px;
+}
