@@ -20,3 +20,6 @@ Cuando se finaliza la compra (**Checkout**), se abre el formulario para que el u
 
 
 Proyecto presentado por: nahuel vazquez 
+
+
+link al [video de demostración:](https://github.com/nahuelvazquez88/thingsdream/blob/main/video/2022-03-18%2018-12-19.mp4)
